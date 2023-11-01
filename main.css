@@ -1,104 +1,174 @@
 html, body {
- font-family: 'Ubuntu', sans-serif;
- background-color: #ccccff;
- max-width: 100%;
- height: auto;
- margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #bcb4b3;
+    max-width: 100%;
+    height: auto;
+    margin: 0;
 }
+
 header {
- background-color: #0000cc;
+ background-color: #bcb4b3;
  color: #ffffff;
  text-align: center;
  padding: 0.1em;
 }
-b {
-  font-size: 18px;
-}
-* {
-  box-sizing: border-box;
-}
-.row {  
+
+b {font-size: 18px;}
+.b-studylist{font-size: 15px}
+* {box-sizing: border-box;}
+a {color: #5b6c54; text-decoration: none;}
+p {line-height: 1.5; /* Применить к всем абзацам */}
+.p-list{line-height: 0.7; font-size: 14px}
+
+
+.clickable_icon {color: #585853;}
+.clickable_icon:hover {color: #5b6c54;}
+.simple_icon {color: #585853;}
+
+.row {
   display: flex;
   flex-wrap: wrap;
 }
+
+
+/* columns */
 .left-column {
-  flex: 33%;
-  background-color: #fff5ef;
-  padding: 20px;
+  flex: 20%;
+  background-color: #bcb4b3;
+  padding: 25px;
 }
+
 .right-column {
-  flex: 66%;
-  background-color: #fff5ef;
-  padding: 20px;
+  flex: 75%;
+  background-color: #bcb4b3;
+  padding: 25px;
 }
+
 @media screen and (max-width: 700px) {
   .row {   
     flex-direction: column;
   }
 }
-.profile-image {
-  background-image: url("male-467711_640.jpg");
-  height: 250px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  padding-top: 0.5em;
+
+/* profile-image-classe */
+    .profile-image {
+        height: 400px;
+        position: relative;
+    }
+
+    .professional-image, .personal-image {
+        height: 100%;  /* Занимает всю высоту родительского блока */
+        width: 100%;   /* Занимает всю ширину родительского блока */
+    }
+
+    .professional-image {
+        background-image: url("ava.jpg");
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .personal-image {
+        background-image: url("fun_ava.jpg");
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: none;
+    }
+
+/* end */
+
+/* professional / personal controller */
+.profile-image:hover .professional-image {
+    display: none;
 }
+
+.profile-image:hover .personal-image {
+    display: inline-block;
+}
+
+/* end */
+
+/*test*/
+.professional {
+    display: block;
+}
+
+.personal {
+    display: none;
+}
+
+/*endtest*/
+
+/* skills panels */
+.technical-skills-panel, .hobbies-skills-panel {
+        height: 100%;  /* Занимает всю высоту родительского блока */
+        width: 100%;   /* Занимает всю ширину родительского блока */
+    }
+
 .profile-text {
   text-align: left;
   margin-left: 0.3em;
   margin-top: -0.4em; 
   color: #ffffff;
 }
+
+
 .card {
  background-color: #ffffff;
  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
- padding-bottom: 2em;
+ padding-bottom: 1em;
 }
+
 .info-panel, .exper-panel, .edu-panel {
   font-size: 16px;
   color: #666666;
   padding: 0.5em 1.5em;    
 }
-.skills-bar, .language-bar {
-  width: 100%;
-  background-color: #e6e6ff;
-  border-radius: 1em;
+
+
+
+.top-exper-panel {
+    font-size: 16px;
+    color: #666666;
+    padding: 0.5em 1.5em;
+    display: inline-block;
 }
-.skills, .language {
-  font-size: 12px;
-  text-align: center;  
-  color: white;
-}
-.html {width: 90%; background-color: #0000cc; border-radius: 1em;}
-.css {width: 80%; background-color: #0000cc; border-radius: 1em;}
-.js {width: 65%; background-color: #0000cc; border-radius: 1em;}
-.php {width: 60%; background-color: #0000cc; border-radius: 1em;}
-.english {width: 100%; background-color: #0000cc; border-radius: 1em;}
-.spanish {width: 75%; background-color: #0000cc; border-radius: 1em;}
-.french {width: 60%; background-color: #0000cc; border-radius: 1em;}
-.german {width: 40%; background-color: #0000cc; border-radius: 1em;}
-mark {
+
+
+
+
+
+/* bars */
+    .bar-text {
+        font-size: 12px;
+        text-align: center;
+        color: white;
+    }
+
+    .bar-p {
+        line-height: 2px;
+    }
+
+    .prof-skill-bar{width: 100%; background-color: #b3b4ad; border-radius: 0.35em;}
+    .profesional-progress-bar {background-color: #585853; border-radius: 0.35em;}
+    .pers-skill-bar{width: 100%; background-color: #ede4c9; border-radius: 0.35em;}
+    .personal-progress-bar {background-color: #5b6c54; border-radius: 0.35em;}
+
+
+
+.dates {
 padding: 5px;
-background-color: #0000cc;
+background-color: #5b6c54;
 color:white;
 border-radius: 0.2em;
 }
+
+
+
 footer {
   text-align: center;
   text-decoration: none;
-  background-color: #0000cc;
+  background-color: #585853;
   color: #33ffff;
-  padding: 1em;
-}
-.social-links {
-  color: #ffffff;  
-}
-.social-links :hover {
-  color: #33ffff;   
-}
-a {
-  color: #33ffff;
-  text-decoration: none;
 }
