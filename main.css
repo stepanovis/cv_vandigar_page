@@ -1,13 +1,14 @@
 html, body {
-    font-family: 'Ubuntu', sans-serif;
-    background-color: #bcb4b3;
+    /*font-family: 'Ubuntu', sans-serif;*/
+    font-family: 'Pixelify Sans', sans-serif;
+    background-color: #1e1717;
     max-width: 100%;
     height: auto;
     margin: 0;
 }
 
 header {
- background-color: #bcb4b3;
+ background-color: #1e1717;
  color: #ffffff;
  text-align: center;
  padding: 0.1em;
@@ -19,7 +20,11 @@ b {font-size: 18px;}
 a {color: #5b6c54; text-decoration: none;}
 p {line-height: 1.5; /* Применить к всем абзацам */}
 .p-list{line-height: 0.7; font-size: 14px}
-
+.p-text{line-height: 0.5}
+h1{color: #1e1717}
+h2{color: #1e1717}
+h3{color: #1e1717}
+h5{color: #436474}
 
 .clickable_icon {color: #585853;}
 .clickable_icon:hover {color: #5b6c54;}
@@ -34,13 +39,13 @@ p {line-height: 1.5; /* Применить к всем абзацам */}
 /* columns */
 .left-column {
   flex: 20%;
-  background-color: #bcb4b3;
+  background-color: #1e1717;
   padding: 25px;
 }
 
 .right-column {
   flex: 75%;
-  background-color: #bcb4b3;
+  background-color: #1e1717;
   padding: 25px;
 }
 
@@ -150,13 +155,13 @@ p {line-height: 1.5; /* Применить к всем абзацам */}
         line-height: 2px;
     }
 
-    .prof-skill-bar{width: 100%; background-color: #b3b4ad; border-radius: 0.35em;}
-    .profesional-progress-bar {background-color: #585853; border-radius: 0.35em;}
+    .prof-skill-bar{width: 100%; background-color: #d7ced0; border-radius: 0.35em;}
+    .profesional-progress-bar {background-color: #436474; border-radius: 0.35em;}
     .pers-skill-bar{width: 100%; background-color: #ede4c9; border-radius: 0.35em;}
     .personal-progress-bar {background-color: #5b6c54; border-radius: 0.35em;}
 
 
-
+/* marks */
 .dates {
 padding: 5px;
 background-color: #5b6c54;
@@ -164,11 +169,25 @@ color:white;
 border-radius: 0.2em;
 }
 
+.work_position {
+    padding: 5px;
+    background-color: #694c3b;
+    color:white;
+    border-radius: 0.2em;
+}
+
+.live_position {
+    padding: 5px;
+    background-color: #5b6c54;
+    color:white;
+    border-radius: 0.2em;
+}
+
 
 
 footer {
   text-align: center;
   text-decoration: none;
-  background-color: #585853;
+  background-color: #1e1717;
   color: #33ffff;
 }
