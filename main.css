@@ -19,12 +19,19 @@ b {font-size: 18px;}
 * {box-sizing: border-box;}
 a {color: #5b6c54; text-decoration: none;}
 p {line-height: 1.5; /* Применить к всем абзацам */}
-.p-list{line-height: 0.7; font-size: 14px}
+.p-list{
+    line-height: 1;
+    font-size: 14px;
+    white-space: break-spaces}
 .p-text{line-height: 0.5}
 h1{color: #1e1717}
 h2{color: #1e1717}
 h3{color: #1e1717}
 h5{color: #436474}
+
+li {
+    margin-bottom: 5px;
+}
 
 .clickable_icon {color: #585853;}
 .clickable_icon:hover {color: #5b6c54;}
@@ -171,6 +178,8 @@ border-radius: 0.2em;
 
 .work_position {
     padding: 5px;
+    line-height: 2;
+    white-space: nowrap;
     background-color: #694c3b;
     color:white;
     border-radius: 0.2em;
@@ -178,6 +187,8 @@ border-radius: 0.2em;
 
 .live_position {
     padding: 5px;
+    line-height: 2;
+    white-space: nowrap;
     background-color: #5b6c54;
     color:white;
     border-radius: 0.2em;
