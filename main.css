@@ -64,8 +64,8 @@ li {
 
 /* profile-image-classe */
     .profile-image {
-        height: 400px;
         position: relative;
+        height: 400px;
     }
 
     .professional-image, .personal-image {
