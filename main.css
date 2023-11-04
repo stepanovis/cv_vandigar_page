@@ -8,11 +8,17 @@ html, body {
 }
 
 header {
-    background-color: #1e1717;
+    background-color: #ffffff;
     color: #ffffff;
-    text-align: center;
     padding: 0.1em;
 }
+
+footer {
+    background-color: #ffffff;
+    color: #ffffff;
+    padding-bottom: 4em;
+}
+
 
 /* main title */
 .main_title {
@@ -256,12 +262,6 @@ li {
 }
 
 
-footer {
-    text-align: center;
-    text-decoration: none;
-    background-color: #1e1717;
-    color: #33ffff;
-}
 
 /* funny facts */
 .funny-fact-header {
