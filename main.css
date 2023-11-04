@@ -8,85 +8,134 @@ html, body {
 }
 
 header {
- background-color: #1e1717;
- color: #ffffff;
- text-align: center;
- padding: 0.1em;
+    background-color: #1e1717;
+    color: #ffffff;
+    text-align: center;
+    padding: 0.1em;
 }
 
-b {font-size: 18px;}
-.b-studylist{font-size: 15px}
-* {box-sizing: border-box;}
-a {color: #5b6c54; text-decoration: none;}
-p {line-height: 1.5; /* Применить к всем абзацам */}
-.p-list{
+/* main title */
+.main_title {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 800;
+}
+.main_subtitle {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 600;
+}
+b {
+    font-size: 18px;
+}
+
+.b-studylist {
+    font-size: 15px
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    color: #5b6c54;
+    text-decoration: none;
+}
+
+p {
+    line-height: 1.5; /* Применить к всем абзацам */
+}
+
+.p-list {
     line-height: 1;
     font-size: 14px;
-    white-space: break-spaces}
-.p-text{line-height: 0.5}
-h1{color: #1e1717}
-h2{color: #1e1717}
-h3{color: #1e1717}
-h5{color: #436474}
+    white-space: break-spaces
+}
+
+.p-text {
+    line-height: 0.5
+}
+
+h1 {
+    color: #1e1717
+}
+
+h2 {
+    color: #1e1717
+}
+
+h3 {
+    color: #1e1717
+}
+
+h5 {
+    color: #436474
+}
 
 li {
     margin-bottom: 5px;
 }
 
-.clickable_icon {color: #585853;}
-.clickable_icon:hover {color: #5b6c54;}
-.simple_icon {color: #585853;}
+.clickable_icon {
+    color: #585853;
+}
+
+.clickable_icon:hover {
+    color: #5b6c54;
+}
+
+.simple_icon {
+    color: #585853;
+}
 
 .row {
-  display: flex;
-  flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 
 /* columns */
 .left-column {
-  flex: 20%;
-  background-color: #1e1717;
-  padding: 25px;
+    flex: 20%;
+    background-color: #1e1717;
+    padding: 25px;
 }
 
 .right-column {
-  flex: 75%;
-  background-color: #1e1717;
-  padding: 25px;
+    flex: 75%;
+    background-color: #1e1717;
+    padding: 25px;
 }
 
 @media screen and (max-width: 700px) {
-  .row {   
-    flex-direction: column;
-  }
+    .row {
+        flex-direction: column;
+    }
 }
 
 /* profile-image-classe */
-    .profile-image {
-        position: relative;
-        height: 400px;
-    }
+.profile-image {
+    position: relative;
+    height: 400px;
+}
 
-    .professional-image, .personal-image {
-        height: 100%;  /* Занимает всю высоту родительского блока */
-        width: 100%;   /* Занимает всю ширину родительского блока */
-    }
+.professional-image, .personal-image {
+    height: 100%; /* Занимает всю высоту родительского блока */
+    width: 100%; /* Занимает всю ширину родительского блока */
+}
 
-    .professional-image {
-        background-image: url("ava.jpg");
-        background-position: top;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
+.professional-image {
+    background-image: url("ava.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
-    .personal-image {
-        background-image: url("fun_ava.jpg");
-        background-position: top;
-        background-repeat: no-repeat;
-        background-size: cover;
-        display: none;
-    }
+.personal-image {
+    background-image: url("fun_ava.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: none;
+}
 
 /* end */
 
@@ -114,30 +163,28 @@ li {
 
 /* skills panels */
 .technical-skills-panel, .hobbies-skills-panel {
-        height: 100%;  /* Занимает всю высоту родительского блока */
-        width: 100%;   /* Занимает всю ширину родительского блока */
-    }
+    height: 100%; /* Занимает всю высоту родительского блока */
+    width: 100%; /* Занимает всю ширину родительского блока */
+}
 
 .profile-text {
-  text-align: left;
-  margin-left: 0.3em;
-  margin-top: -0.4em; 
-  color: #ffffff;
+    text-align: left;
+    margin-left: 0.3em;
+    margin-top: -0.4em;
+    color: #ffffff;
 }
 
 
 .card {
- background-color: #ffffff;
- box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
- padding-bottom: 1em;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
 }
 
 .info-panel, .exper-panel, .edu-panel {
-  font-size: 16px;
-  color: #666666;
-  padding: 0.5em 1.5em;    
+    font-size: 16px;
+    color: #666666;
+    padding: 0.5em 1.5em;
 }
-
 
 
 .top-exper-panel {
@@ -148,32 +195,46 @@ li {
 }
 
 
-
-
-
 /* bars */
-    .bar-text {
-        font-size: 12px;
-        text-align: center;
-        color: white;
-    }
+.bar-text {
+    font-size: 12px;
+    text-align: center;
+    color: white;
+}
 
-    .bar-p {
-        line-height: 2px;
-    }
+.bar-p {
+    line-height: 2px;
+}
 
-    .prof-skill-bar{width: 100%; background-color: #d7ced0; border-radius: 0.35em;}
-    .profesional-progress-bar {background-color: #436474; border-radius: 0.35em;}
-    .pers-skill-bar{width: 100%; background-color: #ede4c9; border-radius: 0.35em;}
-    .personal-progress-bar {background-color: #5b6c54; border-radius: 0.35em;}
+.prof-skill-bar {
+    width: 100%;
+    background-color: #d7ced0;
+    border-radius: 0.35em;
+}
+
+.profesional-progress-bar {
+    background-color: #436474;
+    border-radius: 0.35em;
+}
+
+.pers-skill-bar {
+    width: 100%;
+    background-color: #ede4c9;
+    border-radius: 0.35em;
+}
+
+.personal-progress-bar {
+    background-color: #5b6c54;
+    border-radius: 0.35em;
+}
 
 
 /* marks */
 .dates {
-padding: 5px;
-background-color: #5b6c54;
-color:white;
-border-radius: 0.2em;
+    padding: 5px;
+    background-color: #5b6c54;
+    color: white;
+    border-radius: 0.2em;
 }
 
 .work_position {
@@ -181,7 +242,7 @@ border-radius: 0.2em;
     line-height: 2;
     white-space: nowrap;
     background-color: #694c3b;
-    color:white;
+    color: white;
     border-radius: 0.2em;
 }
 
@@ -190,30 +251,29 @@ border-radius: 0.2em;
     line-height: 2;
     white-space: nowrap;
     background-color: #5b6c54;
-    color:white;
+    color: white;
     border-radius: 0.2em;
 }
 
 
-
 footer {
-  text-align: center;
-  text-decoration: none;
-  background-color: #1e1717;
-  color: #33ffff;
+    text-align: center;
+    text-decoration: none;
+    background-color: #1e1717;
+    color: #33ffff;
 }
 
 /* funny facts */
-.funny-fact-header{
+.funny-fact-header {
 
 }
 
-.funny-fact-description{
+.funny-fact-description {
 
 }
 
 /* work positions block */
-.position_cat{
+.position_cat {
     display: flex;
     height: 30px;
     align-items: center;
@@ -222,7 +282,7 @@ footer {
     border-radius: 2px;
 }
 
-.position_item{
+.position_item {
     display: flex;
     height: 30px;
     align-items: center;
