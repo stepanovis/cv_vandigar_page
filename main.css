@@ -1,10 +1,10 @@
 html, body {
     /*font-family: 'Ubuntu', sans-serif;*/
-    font-family: 'Pixelify Sans', sans-serif;
     background-color: #1e1717;
     max-width: 100%;
     height: auto;
     margin: 0;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 header {
@@ -201,4 +201,65 @@ footer {
   text-decoration: none;
   background-color: #1e1717;
   color: #33ffff;
+}
+
+/* funny facts */
+.funny-fact-header{
+
+}
+
+.funny-fact-description{
+
+}
+
+/* work positions block */
+.position_cat{
+    display: flex;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    border-radius: 2px;
+}
+
+.position_item{
+    display: flex;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    border-color: #436474;
+    border-style: solid;
+    border-radius: 2px;
+    margin-bottom: 1px;
+    margin-top: 1px;
+}
+
+.toward_cat {
+    background-color: #436474;
+    color: white;
+    border-color: #436474;
+}
+
+.toward_item {
+    border-color: #436474;
+}
+
+.efficient_cat {
+    background-color: #5b6c54;
+    color: white;
+    border-color: #5b6c54;
+}
+
+.efficient_item {
+    border-color: #5b6c54;
+}
+
+.study_cat {
+    background-color: #694C3BFF;
+    color: white;
+    border-color: #694C3BFF;
+}
+
+.study_item {
+    border-color: #694C3BFF;
 }
