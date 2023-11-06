@@ -11,12 +11,13 @@ header {
 
     .main_title {
         font-family: "Titillium Web", sans-serif;
-        font-weight: 800;
+        font-weight: 800;line-height: 1;
     }
 
     .main_subtitle {
         font-family: "Titillium Web", sans-serif;
         font-weight: 600;
+        line-height: 1;
     }
 
     .sub_main_subtitle {
