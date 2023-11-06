@@ -17,14 +17,7 @@ footer {
 
 
 /* main title */
-.main_title {
-    font-family: "Titillium Web", sans-serif;
-    font-weight: 800;
-}
-.main_subtitle {
-    font-family: "Titillium Web", sans-serif;
-    font-weight: 600;
-}
+
 b {
     font-size: 18px;
 }
@@ -125,14 +118,14 @@ li {
 }
 
 .professional-image {
-    background-image: url("ava.jpg");
+    background-image: url("images/ava.jpg");
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .personal-image {
-    background-image: url("fun_ava.jpg");
+    background-image: url("images/fun_ava.jpg");
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
