@@ -7,11 +7,7 @@ html, body {
     font-family: 'Titillium Web', sans-serif;
 }
 
-header {
-    background-color: #ffffff;
-    color: #ffffff;
-    padding: 0.1em;
-}
+
 
 footer {
     background-color: #1e1717;
@@ -273,56 +269,8 @@ li {
 }
 
 /* work positions block */
-.position_cat {
-    display: flex;
-    height: 30px;
-    align-items: center;
-    justify-content: center;
-    border-style: solid;
-    border-radius: 2px;
-}
 
-.position_item {
-    display: flex;
-    height: 30px;
-    align-items: center;
-    justify-content: center;
-    border-color: #436474;
-    border-style: solid;
-    border-radius: 2px;
-    margin-bottom: 1px;
-    margin-top: 1px;
-}
 
-.toward_cat {
-    background-color: #436474;
-    color: white;
-    border-color: #436474;
-}
-
-.toward_item {
-    border-color: #436474;
-}
-
-.efficient_cat {
-    background-color: #5b6c54;
-    color: white;
-    border-color: #5b6c54;
-}
-
-.efficient_item {
-    border-color: #5b6c54;
-}
-
-.study_cat {
-    background-color: #694C3BFF;
-    color: white;
-    border-color: #694C3BFF;
-}
-
-.study_item {
-    border-color: #694C3BFF;
-}
 
 /*
 Пасхалкины подсказкин
@@ -331,5 +279,5 @@ li {
 .secret_note {
     width: 50px;
     height: 16px;
-    color
+    color: #5b6c54;
 }

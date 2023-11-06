@@ -1,0 +1,82 @@
+@media screen and (max-width: 1300px) {
+    .positions {
+
+    }
+
+    .position_cat {
+        width: 100%;
+        text-align: center;
+    }
+
+    .position_item {
+        height: 30px;
+        align-items: center;
+        justify-content: center;
+        border-style: solid;
+        border-radius: 2px;
+        margin-bottom: 1px;
+        margin-top: 1px;
+    }
+}
+
+@media screen and (min-width: 1301px) {
+    .positions {
+        display: flex;
+    }
+
+    .position_cat {
+        display: block;
+        flex: 1;
+        margin: 5px;
+        text-align: center;
+    }
+
+    .position_item {
+        height: 30px;
+        align-items: center;
+        justify-content: center;
+        border-style: solid;
+        border-radius: 2px;
+        margin-bottom: 1px;
+        margin-top: 1px;
+    }
+}
+
+
+.toward_cat {
+    background-color: #436474;
+    color: white;
+    border-color: #436474;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+
+.toward_item {
+    border-color: #436474;
+}
+
+.efficient_cat {
+    background-color: #5b6c54;
+    color: white;
+    border-color: #5b6c54;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+
+.efficient_item {
+    border-color: #5b6c54;
+}
+
+.study_cat {
+    background-color: #694C3BFF;
+    color: white;
+    border-color: #694C3BFF;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.study_item {
+    border-color: #694C3BFF;
+}
