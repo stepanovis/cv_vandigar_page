@@ -118,14 +118,14 @@ li {
 }
 
 .professional-image {
-    background-image: url("images/ava.jpg");
+    background-image: url("../images/ava.jpg");
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .personal-image {
-    background-image: url("images/fun_ava.jpg");
+    background-image: url("../images/fun_ava.jpg");
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
